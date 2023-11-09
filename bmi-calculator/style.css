@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body{
@@ -96,7 +97,7 @@ body{
 }
 
 
-@media (max-width: 600px) and (min-width: 386px){
+@media (max-width: 600px) and (min-width: 291px){
     h1{
         font-size: 1.1em;
         padding: 2px;
@@ -125,11 +126,12 @@ body{
         padding-top: 20px;
     }
 }
-
+/* 
 @media (max-width: 385px) and (min-width: 291px) {
     h1{
         font-size: 1.2em;
         padding: 2px;
+        overflow-x: hidden;
     }
     .box{
         padding: 5px;
@@ -142,11 +144,11 @@ body{
         text-align: center;
         margin-top: 10px;
     }
-}
+} */
 
 @media (max-width: 290px) {
     body{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     h1{
         font-size: 1.2em;
@@ -154,6 +156,7 @@ body{
     }
     .box{
         padding: 2px;
+        gap: 10px;
     }
     .my-container{
       gap: 30px;
@@ -161,6 +164,17 @@ body{
     .weight-guide{
         text-align: center;
         margin-top: 10px;
+    }
+    .box div{
+        font-size: 0.9em;
+    }
+    .btn{
+        width: 100px;
+        height: 30px;
+    }
+    #result{
+        font-size: 0.9em;
+        padding-top: 15px;
     }
 }
 
