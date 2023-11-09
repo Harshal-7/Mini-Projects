@@ -96,25 +96,37 @@ body{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 386px){
     h1{
-        font-size: 1.5em;
+        font-size: 1.1em;
         padding: 2px;
     }
     .my-container{
       gap: 10px;
     }
     .box div{
-        font-size: 0.9em;
+        font-size: 0.7em;
+    }
+    .box{
+        padding: 10px;
+        gap: 20px;
     }
     .weight-guide{
         text-align: center;
         margin-top: 10px;
-        font-size: 0.9em;
+        font-size: 0.8em;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
+    #result{
+        font-size: 1em;
+        padding-top: 20px;
     }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 385px) and (min-width: 291px) {
     h1{
         font-size: 1.2em;
         padding: 2px;
