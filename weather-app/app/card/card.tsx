@@ -17,7 +17,7 @@ export const Card = () => {
   const api_key = "a3c6f81a551d355bec1871b1a5796110";
 
   const base_url = "https://api.openweathermap.org/data/2.5/weather?";
-  const geoLocation = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${api_key}`;
+  const geoLocation = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${api_key}`;
 
   const handleSubmit = async () => {
     try {
